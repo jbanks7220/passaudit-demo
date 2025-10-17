@@ -1,0 +1,5 @@
+# No external dependencies required for basic functionality.
+# Optional libraries for future enhancements:
+
+# matplotlib (optional, for charts/visualizations)
+# matplotlib>=3.7.1
