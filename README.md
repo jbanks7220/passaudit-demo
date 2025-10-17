@@ -25,14 +25,14 @@ All output files are created in the current working directory (where you run the
 ## 📂 Project Contents (actual layout)
 
 passaudit-demo/  
-├── passaudit.py  
 ├── docs/  
 │ ├── demo_hashes_sha1.txt # SHA-1 hashes for demo use  
 │ ├── demo_hashes_sha256.txt # SHA-256 hashes for demo use  
 │ ├── passwords_mixed.txt # Example weak passwords  
-│ └── passwords_weak.txt # Mixed password samples  
-├── requirements.txt  
+│ └── passwords_weak.txt # Mixed password samples
 ├── README.md  
+├── passaudit.py  
+├── requirements.txt  
 └── audit_report.* # Generated reports (after running)
 
 
@@ -95,6 +95,7 @@ Security-minded, ethical tooling practices
 ## ✨ About
 
 Created by Jamir Banks
+
 
 
 
