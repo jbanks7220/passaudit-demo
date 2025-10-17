@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ## 3. Run a plaintext password strength audit
 ```
-python3 passaudit.py --input docs/passwords_mixed.txt --report audit_report --verbose
+python3 passaudit.py --input docs/passwords_mixed.txt --report audit_report 
 ```
 
 Output files created in the repo root: audit_report.json, audit_report.html, audit_report.md
@@ -61,7 +61,7 @@ Output files created in the repo root: audit_report.json, audit_report.html, aud
 
 For SHA-1:
 ```
-python3 passaudit.py --hashes docs/demo_hashes_sha1.txt --wordlist docs/passwords_weak.txt --algo sha1 --report audit_report --verbose
+python3 passaudit.py --hashes docs/demo_hashes_sha1.txt --wordlist docs/passwords_weak.txt --algo sha1 --report audit_report 
 ```
 
 ## 📊 Report Breakdown
@@ -95,6 +95,7 @@ Security-minded, ethical tooling practices
 ## ✨ About
 
 Created by Jamir Banks
+
 
 
 
