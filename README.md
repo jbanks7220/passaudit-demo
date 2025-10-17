@@ -64,6 +64,26 @@ For SHA-1:
 python3 passaudit.py --hashes docs/demo_hashes_sha1.txt --wordlist docs/passwords_weak.txt --algo sha1 --report audit_report 
 ```
 
+## Demo — Quick Walkthrough 🎥
+
+Watch the short demo to see `passaudit.py` in action: I run a plaintext audit, perform a hash-based dictionary check, and open the generated HTML report to review results.
+
+https://github.com/user-attachments/assets/5b3ef056-038b-4c14-ab3f-8ba1eafe705f
+
+**What’s shown**
+1. Running a plaintext password audit: analyzes each password and produces JSON / HTML / MD reports.  
+2. Running a hash audit: compares SHA-1 / SHA-256 hashes against a wordlist and surfaces matched (weak) passwords.  
+3. Opening the generated `audit_report.html` in a browser to review the human-friendly report.
+
+**Commands used in the demo**
+```bash
+# Plaintext audit (creates audit_report.json / .html / .md)
+python3 passaudit.py --input docs/passwords_mixed.txt --report audit_report --verbose
+
+# Hash audit (SHA-256 example)
+python3 passaudit.py --hashes docs/demo_hashes_sha256.txt --wordlist docs/passwords_mixed.txt --algo sha256 --report audit_report --verbose
+
+
 ## 📊 Report Breakdown
 
 Each generated report includes:
@@ -95,6 +115,7 @@ Security-minded, ethical tooling practices
 ## ✨ About
 
 Created by Jamir Banks
+
 
 
 
