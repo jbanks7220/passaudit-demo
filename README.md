@@ -83,7 +83,7 @@ python3 passaudit.py --input docs/passwords_mixed.txt --report audit_report --ve
 # Hash audit (SHA-256 example)
 python3 passaudit.py --hashes docs/demo_hashes_sha256.txt --wordlist docs/passwords_mixed.txt --algo sha256 --report audit_report --verbose
 
-
+```
 ## 📊 Report Breakdown
 
 Each generated report includes:
@@ -115,6 +115,7 @@ Security-minded, ethical tooling practices
 ## ✨ About
 
 Created by Jamir Banks
+
 
 
 
