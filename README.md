@@ -112,9 +112,11 @@ Report generation (JSON, HTML, Markdown)
 
 Security-minded, ethical tooling practices
 
-## ✨ About
+## 👨‍💻 Author
 
-Created by Jamir Banks
+Built by Jamir Banks
+
+Navy veteran & former CTR | Cybersecurity hobbyist | Signals intelligence & secure comms background | Focused on defense, recon & red team skills
 
 
 
